@@ -390,6 +390,7 @@ export const contact = {
   email: "vasanthaganesh11@gmail.com",
   phone: "+91 7871029435",
   channels: [
+    { k: "Portfolio", v: "vasanthaganesh-portfolio-2026.vercel.app", href: "https://vasanthaganesh-portfolio-2026.vercel.app" },
     { k: "Email", v: "vasanthaganesh11@gmail.com", href: "mailto:vasanthaganesh11@gmail.com" },
     { k: "Phone", v: "+91 7871029435", href: "tel:+917871029435" },
     { k: "LinkedIn", v: "vasanthaganesh-raja", href: "https://www.linkedin.com/in/vasanthaganesh-raja-085124231" },
