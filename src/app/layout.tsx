@@ -12,20 +12,38 @@ const description =
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  alternates: {
+    canonical: site.url,
+  },
   title: "Vasanthaganesh R — Backend Java Engineer · Enterprise Microservices & Scalable Systems",
   description,
-  icons: { icon: "/favicon.svg" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     title: "Vasanthaganesh R — Backend Java Engineer · Enterprise Microservices & Scalable Systems",
     description,
     url: site.url,
     siteName: "Vasanthaganesh R",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Vasanthaganesh R — Backend Java Engineer · Enterprise Microservices & Scalable Systems",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Vasanthaganesh R — Backend Java Engineer · Enterprise Microservices & Scalable Systems",
     description,
+    images: ["/og-image.png"],
   },
 };
 

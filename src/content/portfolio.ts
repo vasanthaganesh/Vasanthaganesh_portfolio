@@ -58,7 +58,7 @@ export type ContactChannel = {
 export const site = {
   name: "Vasanthaganesh R",
   short: "VG",
-  url: "https://vasanthaganesh.dev",
+  url: "https://vasanthaganesh-portfolio-2026.vercel.app",
   handle: "@VasanthaganeshRaja",
   label: "Enterprise Backend & Distributed Systems",
   role: "Backend Java Engineer · Enterprise Microservices & Scalable Systems",
